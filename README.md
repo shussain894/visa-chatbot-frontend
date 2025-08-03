@@ -1,4 +1,4 @@
-# 🇬🇧 UK Visa Chatbot
+# 🇬🇧 UK Visa Eligibility Chatbot
 
 A simple full-stack chatbot to help users determine their UK visit visa eligibility using a rule-based system and optional LLM fallback. Built with React, Node.js (Express), llama3 and MongoDB.
 
@@ -45,4 +45,5 @@ Example Messages to Test:
 
 - "Can I visit family from Nigeria?" → Family visa, visa required, TB test required
 
+(If the chatbot is taking a few seconds to return a response, it means it is trying to fetch a response from the LLM, so please be patient! 😁)
 
