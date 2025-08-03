@@ -13,7 +13,7 @@ function ChatBox() {
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const res = await axios.post("http://localhost:3000/check", {
+      const res = await axios.post("http://localhost:5000/check", {
         userMessage: userInput,
       });
 
