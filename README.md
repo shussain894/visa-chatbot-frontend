@@ -7,14 +7,13 @@ A simple full-stack chatbot to help users determine their UK visit visa eligibil
 - Rule-based backend with visa eligibility, TB test, and purpose logic.
 - Friendly, formatted bot responses.
 - Logs each session to MongoDB with details like:
-User question
-Matched visa type / country
-TB test requirement
-LLM fallback (if used)
+  - User question
+  - Matched visa type / country
+  - TB test requirement
+  - LLM fallback (if used)
 
 ## 🧱 Tech Stack
-Frontend	Backend	Database
-React	Node + Express	MongoDB
+React -	Node - Express - MongoDB
 
 ## 🚀 How to Run Locally
 1. Clone the repository
@@ -33,6 +32,6 @@ React	Node + Express	MongoDB
    npm start
    Runs on http://localhost:5173
    ```
-Please ensure backend server, database and llama3 server are running first
+Please ensure the backend server, database and the llama3 server are running first
 [backend](https://github.com/shussain894/visa-chatbot-backend)
 
