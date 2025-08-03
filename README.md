@@ -19,7 +19,7 @@ React -	Node - Express - MongoDB
 1. Clone the repository
    ```bash
    git clone https://github.com/shussain894/visa-chatbot-frontend
-   cd uk-visa-chatbot-frontend
+   cd visa-chatbot-frontend
    cd frontend
    ```
    
