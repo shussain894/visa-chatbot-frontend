@@ -1,4 +1,4 @@
-# 🇬🇧 UK Visit Visa Chatbot
+# 🇬🇧 UK Visa Chatbot
 
 A simple full-stack chatbot to help users determine their UK visit visa eligibility using a rule-based system and optional LLM fallback. Built with React, Node.js (Express), llama3 and MongoDB.
 
@@ -31,8 +31,8 @@ React -	Node - Express - MongoDB
     ```bash
    npm start
       ```
-   Runs on http://localhost:5173.
-
+   Runs on http://localhost:5173
+   
 Please ensure the backend server, database and the llama3 server are running first
 [backend](https://github.com/shussain894/visa-chatbot-backend)
 
