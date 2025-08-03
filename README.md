@@ -32,6 +32,7 @@ React -	Node - Express - MongoDB
    npm start
       ```
    Runs on http://localhost:5173
+   
 Please ensure the backend server, database and the llama3 server are running first
 [backend](https://github.com/shussain894/visa-chatbot-backend)
 
