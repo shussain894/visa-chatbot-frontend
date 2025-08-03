@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css'
 
 function Message({ role, text, nextQuestion, finalDecision }) {
   const formatMessage = (message) => {
@@ -46,7 +47,7 @@ function Message({ role, text, nextQuestion, finalDecision }) {
 
   return (
     <div className={`message ${role}`}>
-      <p><strong>{role === "user" ? "You" : "Bot"}:</strong></p>
+      <p><strong className="message-role">{role === "user" ? "You" : "Bot"}:</strong></p>
       {formattedLines.map((line, idx) => (
         <p key={idx}>{line}</p>
       ))}

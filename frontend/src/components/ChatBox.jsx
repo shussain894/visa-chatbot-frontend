@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Message from "./Message";
+import '../App.css'
 
 function ChatBox() {
   const [messages, setMessages] = useState([]);
@@ -43,21 +44,27 @@ function ChatBox() {
   };
 
   return (
-    <div className="chatbox">
-      <div className="messages">
+    <div className="chat-wrapper">
+      <div className="chat-messages">
         {messages.map((msg, idx) => (
           <Message key={idx} {...msg} />
         ))}
       </div>
-      <div className="input-area">
-        <input
-          type="text"
-          placeholder="Ask about UK visas..."
-          value={userInput}
-          onChange={(e) => setUserInput(e.target.value)}
-          onKeyDown={handleKeyDown}
-        />
-        <button onClick={handleSend}>Send</button>
+
+      <div className="chat-container">
+        <div className="chat-input-area">
+          <input
+            type="text"
+            className="chat-input"
+            placeholder="Ask about UK visas..."
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+          />
+          <button className="chat-send-btn" onClick={handleSend}>
+            Send
+          </button>
+        </div>
       </div>
     </div>
   );
