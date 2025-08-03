@@ -36,3 +36,13 @@ React -	Node - Express - MongoDB
 Please ensure the backend server, database and the llama3 server are running first
 [backend](https://github.com/shussain894/visa-chatbot-backend)
 
+Example Messages to Test:
+- "I’m a tourist from France" → Visa not required, no TB test
+
+- "I'm from South Africa" → Visa required, TB test required
+
+- "I want to work in the UK" → Work visa logic
+
+- "Can I visit family from Nigeria?" → Family visa, visa required, TB test required
+
+
